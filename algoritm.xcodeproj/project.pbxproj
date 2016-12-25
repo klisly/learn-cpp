@@ -21,6 +21,12 @@
 		DDC4B7221E0E4E770094E686 /* 10Reference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDC4B7211E0E4E770094E686 /* 10Reference.cpp */; };
 		DDC4B7241E0E514A0094E686 /* 11Struct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDC4B7231E0E514A0094E686 /* 11Struct.cpp */; };
 		DDC4B7261E0E53230094E686 /* 12CinOut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDC4B7251E0E53230094E686 /* 12CinOut.cpp */; };
+		DDC4B72A1E0E89EA0094E686 /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDC4B7281E0E89EA0094E686 /* Person.cpp */; };
+		DDC4B72F1E0EC2240094E686 /* 0File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDC4B72E1E0EC2240094E686 /* 0File.cpp */; };
+		DDC4B7311E1015950094E686 /* NewDeleteTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDC4B7301E1015950094E686 /* NewDeleteTest.cpp */; };
+		DDC4B7331E10160C0094E686 /* ThisPointerTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDC4B7321E10160C0094E686 /* ThisPointerTest.cpp */; };
+		DDC4B7351E1017510094E686 /* Constant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDC4B7341E1017510094E686 /* Constant.cpp */; };
+		DDC4B7371E1018D40094E686 /* Static.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDC4B7361E1018D40094E686 /* Static.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +58,13 @@
 		DDC4B7211E0E4E770094E686 /* 10Reference.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 10Reference.cpp; sourceTree = "<group>"; };
 		DDC4B7231E0E514A0094E686 /* 11Struct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 11Struct.cpp; sourceTree = "<group>"; };
 		DDC4B7251E0E53230094E686 /* 12CinOut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 12CinOut.cpp; sourceTree = "<group>"; };
+		DDC4B7281E0E89EA0094E686 /* Person.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		DDC4B7291E0E89EA0094E686 /* Person.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
+		DDC4B72E1E0EC2240094E686 /* 0File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = 0File.cpp; path = operator/0File.cpp; sourceTree = "<group>"; };
+		DDC4B7301E1015950094E686 /* NewDeleteTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NewDeleteTest.cpp; sourceTree = "<group>"; };
+		DDC4B7321E10160C0094E686 /* ThisPointerTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThisPointerTest.cpp; sourceTree = "<group>"; };
+		DDC4B7341E1017510094E686 /* Constant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Constant.cpp; sourceTree = "<group>"; };
+		DDC4B7361E1018D40094E686 /* Static.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Static.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +81,9 @@
 		DDC4B6F31E0D12B50094E686 = {
 			isa = PBXGroup;
 			children = (
-				DDC4B6FE1E0D12B50094E686 /* algoritm */,
+				DDC4B72B1E0EC1DF0094E686 /* deep */,
+				DDC4B7271E0E89960094E686 /* class */,
+				DDC4B6FE1E0D12B50094E686 /* basic */,
 				DDC4B6FD1E0D12B50094E686 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,7 +96,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DDC4B6FE1E0D12B50094E686 /* algoritm */ = {
+		DDC4B6FE1E0D12B50094E686 /* basic */ = {
 			isa = PBXGroup;
 			children = (
 				DDC4B7061E0D28C30094E686 /* 0helloworld.cpp */,
@@ -100,7 +115,29 @@
 				DDC4B7231E0E514A0094E686 /* 11Struct.cpp */,
 				DDC4B7251E0E53230094E686 /* 12CinOut.cpp */,
 			);
+			name = basic;
 			path = algoritm;
+			sourceTree = "<group>";
+		};
+		DDC4B7271E0E89960094E686 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				DDC4B7281E0E89EA0094E686 /* Person.cpp */,
+				DDC4B7291E0E89EA0094E686 /* Person.hpp */,
+				DDC4B7301E1015950094E686 /* NewDeleteTest.cpp */,
+				DDC4B7321E10160C0094E686 /* ThisPointerTest.cpp */,
+				DDC4B7341E1017510094E686 /* Constant.cpp */,
+				DDC4B7361E1018D40094E686 /* Static.cpp */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+		DDC4B72B1E0EC1DF0094E686 /* deep */ = {
+			isa = PBXGroup;
+			children = (
+				DDC4B72E1E0EC2240094E686 /* 0File.cpp */,
+			);
+			name = deep;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,16 +200,22 @@
 				DDC4B7261E0E53230094E686 /* 12CinOut.cpp in Sources */,
 				DDC4B7221E0E4E770094E686 /* 10Reference.cpp in Sources */,
 				DDC4B7171E0E0F5E0094E686 /* 6StoreClass.cpp in Sources */,
+				DDC4B7371E1018D40094E686 /* Static.cpp in Sources */,
 				DDC4B70E1E0D87FE0094E686 /* 3Scope.cpp in Sources */,
+				DDC4B7311E1015950094E686 /* NewDeleteTest.cpp in Sources */,
+				DDC4B7331E10160C0094E686 /* ThisPointerTest.cpp in Sources */,
+				DDC4B7351E1017510094E686 /* Constant.cpp in Sources */,
 				DDC4B7191E0E3CF80094E686 /* 6Constants.cpp in Sources */,
 				DDC4B7081E0D28C30094E686 /* 0helloworld.cpp in Sources */,
 				DDC4B7201E0E4A5E0094E686 /* 9Pointer.cpp in Sources */,
 				DDC4B7151E0D8B4B0094E686 /* 5Modifier.cpp in Sources */,
 				DDC4B71C1E0E3E8E0094E686 /* 7Function.cpp in Sources */,
 				DDC4B7241E0E514A0094E686 /* 11Struct.cpp in Sources */,
+				DDC4B72F1E0EC2240094E686 /* 0File.cpp in Sources */,
 				DDC4B70A1E0D29AB0094E686 /* 1Type.cpp in Sources */,
 				DDC4B71E1E0E3F5E0094E686 /* 8Number.cpp in Sources */,
 				DDC4B7131E0D890E0094E686 /* 4Constant.cpp in Sources */,
+				DDC4B72A1E0E89EA0094E686 /* Person.cpp in Sources */,
 				DDC4B70C1E0D86E50094E686 /* 2Declare.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
